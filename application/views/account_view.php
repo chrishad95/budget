@@ -12,9 +12,7 @@
 <?php echo form_open_multipart(site_url('accounts/import/' . $account['id']));?>
 
 <input type="file" name="transactions_file" size="20" />
-
-<br /><br />
-
+<br />
+<br />
 <input type="submit" value="upload" />
-
 </form>
